@@ -12,7 +12,7 @@ The annotations are saved in the excel file, at the matching column.
 
 The tool is controled by using the following keys:
 
-_keys 0-9_: assign to the image the decided labels and color thw window with matching color.
+_keys 0-9_: assign to the image the decided label (thr window will be colored with an indicative frame).
 
 _enter_: save the label and move to the next example
 
