@@ -7,7 +7,7 @@ An example of use:
 
 python annotation_tool.py --excel_file metadata/annotation_task.xlsx --root_images_dir data
 
-The annotations are saved in the excek file at the matching column. 
+The annotations are saved in the excel file at the matching column. 
 
 The tool is controled by using the following keys:
 
