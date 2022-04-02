@@ -26,7 +26,7 @@ Esc: save results to file and exit.
 
 
 # Software requirements
-This code mainly depends on the following public Python pacackges:
+This code mainly depends on the following public Python packages:
 
 pandas 1.1.5 and above.
 
@@ -35,10 +35,10 @@ cv2 4.2.0.34
 openpyxl 3.0.5 and above
 
 
-
 ## Installation commands
 1. pip install pandas
 2. pip install opencv-python==4.2.0.34
 3. pip install openpyxl
 
-
+## Operating systems.
+This tool was tested on both Windows10 and Unbuntu 16.04 OS, using Python 3.8.
