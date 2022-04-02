@@ -1,29 +1,30 @@
 # Annotation Tool
-The annotation tool is designed to assist a patologist to easily annotate H&E images according to their matching PD-L1 stained images.
-To activate the tool, run the script annotation_tool.py. The input to the script is an excel sheet that containes a list of the relevant images, and the root folder of the images.
-You can use the script with the default parametres attached in this code, or create different excel files to annotate your own images.
+The annotation tool is designed to assist a patologist to easily annotate H&E images according to their matching PD-L1 stained images. We supply a small dataset to test and validate the tool. The complete data can be found on http://bliss.gpec.ubc.ca/ .
+
+# How to use
+To activate the tool, run the script annotation_tool.py. The input to the script is an excel sheet that containes a list of the relevant images, and the root folder of the images. You can use the script with the default parametres attached in this code, or create different excel files to annotate your own images.
 
 An example of use:
 
-python annotation_tool.py --excel_file metadata/annotation_task.xlsx --root_images_dir data
+_python annotation_tool.py --excel_file metadata/annotation_task.xlsx --root_images_dir data_
 
-The annotations are saved in the excel file at the matching column. 
+The annotations are saved in the excel file, at the matching column. 
 
 The tool is controled by using the following keys:
 
-keys 0-9: assign to the image the decided labels and color thw window with matching color.
+_keys 0-9_: assign to the image the decided labels and color thw window with matching color.
 
-enter: save the label and move to the next example
+_enter_: save the label and move to the next example
 
-space: toggle between H&E, PD-L1 and PD-1 corresponding images.
+_space_: toggle between H&E, PD-L1 and PD-1 corresponding images.
 
-'<': move backward
+_'<'_: move backward
 
-'>': move forward
+_'>'_: move forward
 
-Esc: save results to file and exit.
+_Esc_: save results to file and exit.
 
-
+The response time of the software should be immidiate on every modern CPU.
 
 # Software requirements
 This code mainly depends on the following public Python packages:
